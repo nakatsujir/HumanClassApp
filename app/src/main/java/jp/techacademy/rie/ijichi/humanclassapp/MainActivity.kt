@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val human = Human("たろう",17)
+        val human = Human("たろう",17,"未来")
         human.say()
         human.think()
 
